@@ -2,13 +2,13 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 export default function Nav({setIsLogin}) {
-    let isDarkMode=true;
+    // let isDarkMode=true;
 
 
     const logoutSubmit = () =>{
         localStorage.clear()
         setIsLogin(false)
-        isDarkMode=true;
+        // isDarkMode=true;
     }
 
     function handleCheckboxChange() {
